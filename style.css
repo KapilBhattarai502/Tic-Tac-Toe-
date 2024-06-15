@@ -9,6 +9,10 @@ body{
     text-align: center;
 }
 
+h1{
+   
+   font-size: 4.5vmin;
+}
 .container{
     height: 70vh;
     display: flex;
@@ -34,6 +38,7 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0, 0.1);
     font-size: 8vmin;
     color: #b0413e;
+    background-color: white;
 }
 .reset-btn{
     padding: 1rem;
@@ -42,4 +47,15 @@ body{
     background-color: #191913;
     color: white;
     border:none;
+}
+.winner-box{
+    height: 15vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin;
+
+}
+.hide{
+    display: none;
 }
